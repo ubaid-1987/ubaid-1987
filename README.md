@@ -12,8 +12,8 @@ Welcome to my portfolio! I specialize in core IT operations, data center telemet
 * **Key Tasks:** Deployed Virtual Network Gateways and Local Network Gateways to establish active Site-to-Site IPsec VPN tunnels. Enabled **Border Gateway Protocol (BGP)** using Azure standard default ASN (`65515`) to handle dynamic route propagation.
 * **Validation:** Verified multi-region Global VNet Peering transit paths ensuring data runs exclusively over the private Microsoft global backbone network.
 
-[![VNet Peering & Routing Topology](Peering (1).png)
-![BGP Route Verification Table](YOUR_BGP_IMAGE_NAME.png)](https://github.com/ubaid-1987/az104-load-balancing-architecture)
+
+![BGP Route Verification Table]](https://github.com/ubaid-1987/az104-load-balancing-architecture)
 
 ---
 
