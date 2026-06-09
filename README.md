@@ -13,7 +13,7 @@ Welcome to my portfolio! I specialize in core IT operations, data center telemet
 * **Validation:** Verified multi-region Global VNet Peering transit paths ensuring data runs exclusively over the private Microsoft global backbone network.
 
 
-![BGP Route Verification Table]](https://github.com/ubaid-1987/az104-load-balancing-architecture)
+**View Full Lab & Screenshots:** 🔗 [Click here to view my Load Balancer Repository](https://github.com/ubaid-1987/az104-load-balancing-architecture)
 
 ---
 
