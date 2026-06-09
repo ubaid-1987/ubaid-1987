@@ -1,31 +1,43 @@
 # Hi, I'm Ubaid ur Rehman 👋
 ### IT Support Specialist | Infrastructure & Cloud Administrator
 
-
-Welcome to my portfolio! I specialize in core IT operations, data center telemetry, physical hardware deployment, and Azure enterprise cloud administration.
-
----
-
-## 🛠️ Featured Hands-on Infrastructure Labs
-
-### 🌐 1. Azure Hybrid Networking & Core Routing
-* Designed and validated Site-to-Site VPN architectures linking on-premises physical firewalls to Azure `GatewaySubnet` layers.
-* Implemented dynamic routing using Border Gateway Protocol (BGP) with standard Azure ASNs (`65515`).
-* Configured Layer 7 Application Gateways using WAF in **Prevention Mode** to actively drop SQL injections and web exploits.
-
-![Hybrid Network Topology](Peering (1).png)
+Welcome to my portfolio! I specialize in core IT operations, data center telemetry, physical hardware deployment, and enterprise Azure hybrid cloud infrastructure.
 
 ---
 
-### 📊 2. Container Orchestration & Telemetry Monitoring
-* Configured Azure Kubernetes Service (AKS) cluster monitoring by streaming live logs into Log Analytics workspaces via Container Insights.
-* Utilized Kusto Query Language (KQL) to track down container runtime issues inside `ContainerLogV2` stdout/stderr tables.
-* Resolved pod deployment blocks by configuring node-level Kubelet managed identities with explicit `AcrPull` permissions.
+## 🛠️ Core Infrastructure & Cloud Validation Labs
 
-![Telemetry Monitoring Dashboard](YOUR_MONITOR_IMAGE_NAME.png)
+### 🌐 1. Advanced Hybrid Networking & Dynamic Routing (BGP)
+* **Objective:** Architectural setup of cross-premises routing and inter-VNet transit.
+* **Key Tasks:** Deployed Virtual Network Gateways and Local Network Gateways to establish active Site-to-Site IPsec VPN tunnels. Enabled **Border Gateway Protocol (BGP)** using Azure standard default ASN (`65515`) to handle dynamic route propagation.
+* **Validation:** Verified multi-region Global VNet Peering transit paths ensuring data runs exclusively over the private Microsoft global backbone network.
+
+![VNet Peering & Routing Topology](Peering (1).png)
+![BGP Route Verification Table](YOUR_BGP_IMAGE_NAME.png)
 
 ---
 
-### 🔌 3. Physical Hardware & Operations
-* Managed physical server rack deployments, storage infrastructure maintenance, and data center environment monitoring.
-* Planned and structured CCTV camera infrastructure layouts and local network telemetry monitoring systems.
+### 📦 2. Enterprise Storage & Data Persistence
+* **Objective:** Configuring resilient, high-availability data layers for applications and hybrid systems.
+* **Key Tasks:** Provisioned storage configurations across LRS/GRS tiers. Engineered stateful persistence for container configurations by mounting secure **Azure File Shares (SMB)** directly into isolated Azure Container Instances (ACI).
+* **Validation:** Verified endpoint data integrity and path maps to prevent post-restart container data loss.
+
+![Storage Architecture & Mounting](YOUR_STORAGE_IMAGE_NAME.png)
+
+---
+
+### 🔐 3. Cloud Identity, Access Control & Governance
+* **Objective:** Hardening platform authentication and implementing strict least-privilege control loops.
+* **Key Tasks:** Configured **Self-Service Password Reset (SSPR)** registration flows, customized directory security boundaries, and tested Azure AD (Entra ID) enterprise logic.
+* **Validation:** Resolved data-plane authentication blocks by mapping node-level **Kubelet managed identities** with explicit `AcrPull` security roles to safely communicate with private Azure Container Registries (ACR).
+
+![Identity Access and RBAC Logs](YOUR_IDENTITY_IMAGE_NAME.png)
+
+---
+
+### 🔌 4. Systems Telemetry & Physical Operations
+* **Objective:** Monitoring mission-critical infrastructure metrics across cloud resources and physical data centers.
+* **Key Tasks:** Enabled **Container Insights** on active cluster runtimes, streaming operational stdout/stderr console data directly into Log Analytics Workspaces to run **Kusto Query Language (KQL)** diagnostic traces.
+* **Hardware Scope:** Experienced with physical server rack assembly, CCTV camera matrix layout planning, environmental telemetry monitoring, and physical layer hardware troubleshooting.
+
+![Log Analytics and Telemetry Dasboard](Peering (2).png)
