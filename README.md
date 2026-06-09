@@ -25,6 +25,14 @@ Welcome to my portfolio! I specialize in core IT operations, data center telemet
 ---
 
 
+### 🚀 4. App Services, Deployment Slots & Containerized Tasks
+* **Objective:** Architected scalable web hosting and serverless compute processing modules.
+* **Key Tasks:** Leveraged Azure App Service Deployment Slots for zero-downtime production swaps, and deployed on-demand Azure Container Instances (ACI) alongside application traffic telemetry logs.
+* **View Full Lab & Screenshots:** 🔗 [Click here to view my App Service Repository](https://github.com/ubaid-1987/azure-app-services-and-containers)
+
+---
+
+
 ### 📦 2. Enterprise Storage & Data Persistence
 * **Objective:** Configuring resilient, high-availability data layers for applications and hybrid systems.
 * **Key Tasks:** Provisioned storage configurations across LRS/GRS tiers. Engineered stateful persistence for container configurations by mounting secure **Azure File Shares (SMB)** directly into isolated Azure Container Instances (ACI).
