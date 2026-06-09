@@ -30,7 +30,6 @@ Welcome to my portfolio! I specialize in core IT operations, data center telemet
 * **Key Tasks:** Leveraged Azure App Service Deployment Slots for zero-downtime production swaps, and deployed on-demand Azure Container Instances (ACI) alongside application traffic telemetry logs.
 * **View Full Lab & Screenshots:** 🔗 [Click here to view my App Service Repository](https://github.com/ubaid-1987/azure-app-services-and-containers)
 
----
 
 ---
 
@@ -45,7 +44,6 @@ Welcome to my portfolio! I specialize in core IT operations, data center telemet
 * **Key Tasks:** Configured **Self-Service Password Reset (SSPR)** registration flows, customized directory security boundaries, and tested Azure AD (Entra ID) enterprise logic.
 * **Validation:** Resolved data-plane authentication blocks by mapping node-level **Kubelet managed identities** with explicit `AcrPull` security roles to safely communicate with private Azure Container Registries (ACR).
 
-![Identity Access and RBAC Logs](YOUR_IDENTITY_IMAGE_NAME.png)
 
 ---
 
@@ -54,4 +52,3 @@ Welcome to my portfolio! I specialize in core IT operations, data center telemet
 * **Key Tasks:** Enabled **Container Insights** on active cluster runtimes, streaming operational stdout/stderr console data directly into Log Analytics Workspaces to run **Kusto Query Language (KQL)** diagnostic traces.
 * **Hardware Scope:** Experienced with physical server rack assembly, CCTV camera matrix layout planning, environmental telemetry monitoring, and physical layer hardware troubleshooting.
 
-![Log Analytics and Telemetry Dasboard](Peering (2).png)
