@@ -13,7 +13,7 @@ Welcome to my portfolio! I specialize in core IT operations, data center telemet
 * Implemented dynamic routing using Border Gateway Protocol (BGP) with standard Azure ASNs (`65515`).
 * Configured Layer 7 Application Gateways using WAF in **Prevention Mode** to actively drop SQL injections and web exploits.
 
-![Hybrid Network Topology](YOUR_NETWORK_IMAGE_NAME.png)
+![Hybrid Network Topology](Peering (1).png)
 
 ---
 
