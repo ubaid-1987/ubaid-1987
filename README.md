@@ -32,14 +32,12 @@ Welcome to my portfolio! I specialize in core IT operations, data center telemet
 
 ---
 
+---
 
-### 📦 2. Enterprise Storage & Data Persistence
-* **Objective:** Configuring resilient, high-availability data layers for applications and hybrid systems.
-* **Key Tasks:** Provisioned storage configurations across LRS/GRS tiers. Engineered stateful persistence for container configurations by mounting secure **Azure File Shares (SMB)** directly into isolated Azure Container Instances (ACI).
-* **Validation:** Verified endpoint data integrity and path maps to prevent post-restart container data loss.
-
-![Storage Architecture & Mounting](YOUR_STORAGE_IMAGE_NAME.png)
-
+### 🛡️ 5. Business Continuity, Azure Backup & Item Recovery
+* **Objective:** Built data protection policies and automated backup recovery structures.
+* **Key Tasks:** Provisioned Recovery Services Vaults to manage snapshots, and executed operational item-level restorations by dynamically mounting target disks via secure iSCSI executables.
+* **View Full Lab & Screenshots:** 🔗 [Click here to view my Backup & Recovery Repository](https://github.com/ubaid-1987/azure-backup-and-recovery-vaults)
 ---
 
 ### 🔐 3. Cloud Identity, Access Control & Governance
